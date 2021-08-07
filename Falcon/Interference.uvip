@@ -1,0 +1,794 @@
+<UVI4>
+    <Program Name="Program" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="Interference .exs" TransposeOctaves="0" TransposeSemiTones="0" OutputName="" Polyphony="16" NotePolyphony="0" ProgramPath="/Users/richardtaylor/Music/Audio Music Apps/Sampler Instruments/Modular By Type/FX/Interference .exs" LoopProgram="0" Streaming="1">
+        <ControlSignalSources/>
+        <Layers>
+            <Layer Name="Layer 0" Bypass="0" BypassInsertFX="0" Gain="0.50118726" Pan="0" Mute="0" MidiMute="0" Solo="0" DisplayName="Angry Modular 150" OutputName="" LowKey="0" HighKey="127" CustomPolyphony="0" PlayMode="0" PortamentoTime="0.029999999" PortamentoCurve="0" PortamentoMode="0" NumVoicesPerNote="1" VelocityCurve="0">
+                <Properties Color="ff02b0ff"/>
+                <ControlSignalSources/>
+                <BusRouters/>
+                <Keygroups>
+                    <Keygroup Name="Keygroup 0" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C3-C3" OutputName="" ExclusiveGroup="0" LowKey="48" HighKey="48" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="48" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-48-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="684" Stop="509439" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="150182" End="275893" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 1" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C#3-C#3" OutputName="" ExclusiveGroup="0" LowKey="49" HighKey="49" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="49" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-49-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="691" Stop="498175" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="154933" End="293445" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 2" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D3-D3" OutputName="" ExclusiveGroup="0" LowKey="50" HighKey="50" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="50" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-50-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="953" Stop="503807" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="61362" End="211582" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 3" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D#3-D#3" OutputName="" ExclusiveGroup="0" LowKey="51" HighKey="51" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="51" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-51-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="699" Stop="499711" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="55151" End="145717" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 4" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="E3-E3" OutputName="" ExclusiveGroup="0" LowKey="52" HighKey="52" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="52" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-52-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="698" Stop="500223" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="45703" End="177682" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 5" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F3-F3" OutputName="" ExclusiveGroup="0" LowKey="53" HighKey="53" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="53" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-53-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="697" Stop="496639" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="92919" End="257243" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 6" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F#3-F#3" OutputName="" ExclusiveGroup="0" LowKey="54" HighKey="54" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="54" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-54-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="701" Stop="505855" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="141033" End="250140" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 7" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G3-G3" OutputName="" ExclusiveGroup="0" LowKey="55" HighKey="55" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="55" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-55-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="699" Stop="500735" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="116210" End="264811" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 8" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G#3-G#3" OutputName="" ExclusiveGroup="0" LowKey="56" HighKey="56" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="56" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-56-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="690" Stop="496127" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="181847" End="284668" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 9" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A3-A3" OutputName="" ExclusiveGroup="0" LowKey="57" HighKey="57" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="57" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-57-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="699" Stop="508415" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="204321" End="302335" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 10" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A#3-A#3" OutputName="" ExclusiveGroup="0" LowKey="58" HighKey="58" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="58" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-58-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="959" Stop="498175" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="82700" End="261836" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 11" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="B3-B3" OutputName="" ExclusiveGroup="0" LowKey="59" HighKey="59" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="59" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-59-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="695" Stop="500223" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="98917" End="187632" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 12" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C4-C4" OutputName="" ExclusiveGroup="0" LowKey="60" HighKey="60" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="60" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-60-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="702" Stop="505855" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="45255" End="192234" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 13" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C#4-C#4" OutputName="" ExclusiveGroup="0" LowKey="61" HighKey="61" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="61" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-61-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="693" Stop="500223" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="172249" End="270533" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 14" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D4-D4" OutputName="" ExclusiveGroup="0" LowKey="62" HighKey="62" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="62" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-62-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="696" Stop="507391" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="113600" End="217650" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 15" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D#4-D#4" OutputName="" ExclusiveGroup="0" LowKey="63" HighKey="63" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="63" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-63-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="445" Stop="504831" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="158119" End="307365" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 16" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="E4-E4" OutputName="" ExclusiveGroup="0" LowKey="64" HighKey="64" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="64" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-64-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="928" Stop="507903" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="80814" End="175373" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 17" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F4-F4" OutputName="" ExclusiveGroup="0" LowKey="65" HighKey="65" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="65" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-65-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="695" Stop="504831" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="62903" End="248897" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 18" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F#4-F#4" OutputName="" ExclusiveGroup="0" LowKey="66" HighKey="66" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="66" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-66-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="958" Stop="503295" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="137787" End="254334" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 19" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G4-G4" OutputName="" ExclusiveGroup="0" LowKey="67" HighKey="67" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="67" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-67-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="953" Stop="503807" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="16076" End="174931" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 20" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G#4-G#4" OutputName="" ExclusiveGroup="0" LowKey="68" HighKey="68" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="68" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-68-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="957" Stop="507391" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="270249" End="355864" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 21" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A4-A4" OutputName="" ExclusiveGroup="0" LowKey="69" HighKey="69" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="69" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-69-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="672" Stop="511487" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="241552" End="344557" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 22" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A#4-A#4" OutputName="" ExclusiveGroup="0" LowKey="70" HighKey="70" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="70" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-70-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="669" Stop="505343" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="162915" End="249814" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 23" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="B4-B4" OutputName="" ExclusiveGroup="0" LowKey="71" HighKey="71" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="71" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-71-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="418" Stop="505343" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="1437" End="118677" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 24" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C5-C5" OutputName="" ExclusiveGroup="0" LowKey="72" HighKey="72" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="72" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-72-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="673" Stop="504831" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="200827" End="296511" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 25" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C#5-C#5" OutputName="" ExclusiveGroup="0" LowKey="73" HighKey="73" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="73" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-73-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="930" Stop="502271" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="99167" End="196003" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 26" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D5-D5" OutputName="" ExclusiveGroup="0" LowKey="74" HighKey="74" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="74" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-74-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="934" Stop="500223" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="37356" End="223027" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 27" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D#5-D#5" OutputName="" ExclusiveGroup="0" LowKey="75" HighKey="75" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="75" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-75-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="653" Stop="497663" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="233594" End="323169" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 28" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="E5-E5" OutputName="" ExclusiveGroup="0" LowKey="76" HighKey="76" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="76" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-76-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="676" Stop="501247" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="208392" End="408841" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 29" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F5-F5" OutputName="" ExclusiveGroup="0" LowKey="77" HighKey="77" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="77" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-77-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="675" Stop="513535" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="144068" End="238493" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 30" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="F#5-F#5" OutputName="" ExclusiveGroup="0" LowKey="78" HighKey="78" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="78" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-78-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="675" Stop="495615" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="168234" End="257731" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 31" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G5-G5" OutputName="" ExclusiveGroup="0" LowKey="79" HighKey="79" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="79" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-79-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="668" Stop="505343" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="94486" End="236111" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 32" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="G#5-G#5" OutputName="" ExclusiveGroup="0" LowKey="80" HighKey="80" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="80" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-80-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="931" Stop="517119" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="315696" End="427884" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 33" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A5-A5" OutputName="" ExclusiveGroup="0" LowKey="81" HighKey="81" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="81" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-81-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="673" Stop="522239" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="251085" End="357619" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 34" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="A#5-A#5" OutputName="" ExclusiveGroup="0" LowKey="82" HighKey="82" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="82" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-82-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="933" Stop="509951" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="3427" End="373466" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 35" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="B5-B5" OutputName="" ExclusiveGroup="0" LowKey="83" HighKey="83" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="83" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-83-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="671" Stop="510463" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="190287" End="277321" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 36" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C6-C6" OutputName="" ExclusiveGroup="0" LowKey="84" HighKey="84" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="84" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-84-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="675" Stop="516095" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="215551" End="420452" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 37" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="C#6-C#6" OutputName="" ExclusiveGroup="0" LowKey="85" HighKey="85" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="85" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-85-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="927" Stop="542207" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="319705" End="429411" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                    <Keygroup Name="Keygroup 38" Bypass="0" BypassInsertFX="0" Gain="1" Pan="0" DisplayName="D6-D6" OutputName="" ExclusiveGroup="0" LowKey="86" HighKey="86" LowVelocity="1" HighVelocity="127" LowKeyFade="0" HighKeyFade="0" LowVelocityFade="0" HighVelocityFade="0" FadeCurve="2" TriggerMode="0" TriggerSync="0" TriggerRule="0" LatchTrigger="0" FXPostGain="0">
+                        <Connections>
+                            <SignalConnection Name="AmpEnvMod" Ratio="1" Source="Envelope 2" Destination="Gain" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                        </Connections>
+                        <ControlSignalSources>
+                            <DAHDSR Name="Envelope 1" DisplayName="Envelope 1" Bypass="0" DelayTime="0" AttackTime="10" AttackCurve="0.5" HoldTime="0" DecayTime="0.922948" DecayCurve="-0.97000003" SustainLevel="1.0000013e-20" ReleaseTime="0" ReleaseCurve="-0.97000003" VelocityAmount="0.82999998" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                            <DAHDSR Name="Envelope 2" DisplayName="Envelope 2" Bypass="0" DelayTime="0" AttackTime="0" AttackCurve="0.5" HoldTime="0" DecayTime="30" DecayCurve="-0.97000003" SustainLevel="1" ReleaseTime="0.24434648" ReleaseCurve="-0.97000003" VelocityAmount="0.46940625" VelocitySens="0.75" Retrigger="1" NoteOffRetrigger="0"/>
+                        </ControlSignalSources>
+                        <BusRouters/>
+                        <Oscillators>
+                            <SamplePlayer Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="1" Pitch="0" NoteTracking="1" BaseNote="86" DisplayName="Oscillator 1" SamplePath="./../Audio/Interference /Angry Modular 150-86-127.wav" SampleStart="0" InterpolationMode="1" AllowStreaming="1" Reverse="0" SamplePurged="0">
+                                <Connections>
+                                    <SignalConnection Name="PitchBendMod" Ratio="2" Source="@PitchBend" Destination="Pitch" Mapper="" ConnectionMode="0" Bypass="0" Inverted="0"/>
+                                </Connections>
+                                <PlaybackOptions Start="652" Stop="662015" PlayDirection="0" PlayRelease="1">
+                                    <Loop Start="435884" End="547060" Type="0"/>
+                                </PlaybackOptions>
+                            </SamplePlayer>
+                        </Oscillators>
+                    </Keygroup>
+                </Keygroups>
+            </Layer>
+        </Layers>
+    </Program>
+</UVI4>
